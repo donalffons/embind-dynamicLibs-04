@@ -1,6 +1,6 @@
 #include "NCollection_Vector.hxx"
 
-void NCollection_BaseVector::expandV()
+void NCollection_Vector::expandV()
 {
   myInitBlocks();
 }
