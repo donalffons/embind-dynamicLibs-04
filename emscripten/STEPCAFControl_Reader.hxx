@@ -1,6 +1,5 @@
 #ifndef _STEPCAFControl_Reader_HeaderFile
 #define _STEPCAFControl_Reader_HeaderFile
-
 class STEPCAFControl_Reader 
 {
 public:
