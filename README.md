@@ -10,9 +10,9 @@ Current build configuration yields:
 
 ```
 Uncaught (in promise) RuntimeError: function signature mismatch
-    at NCollection_BaseVector::expandV() (<anonymous>:wasm-function[38]:0x24d3)
-    at STEPCAFControl_Reader::ReadFile() (<anonymous>:wasm-function[39]:0x259c)
-    at emscripten::internal::MethodInvoker<void (STEPCAFControl_Reader::*)(), void, STEPCAFControl_Reader*>::invoke(void (STEPCAFControl_Reader::* const&)(), STEPCAFControl_Reader*) (<anonymous>:wasm-function[36]:0x24c0)
+    at NCollection_Vector::expandV() (<anonymous>:wasm-function[31]:0x1864)
+    at STEPCAFControl_Reader::ReadFile() (<anonymous>:wasm-function[32]:0x192d)
+    at emscripten::internal::MethodInvoker<void (STEPCAFControl_Reader::*)(), void, STEPCAFControl_Reader*>::invoke(void (STEPCAFControl_Reader::* const&)(), STEPCAFControl_Reader*) (<anonymous>:wasm-function[29]:0x1851)
     at STEPCAFControl_Reader$ReadFile [as ReadFile] (eval at new_ (http://localhost:5000/emscripten/build/main.js:30344:27), <anonymous>:8:1)
     at http://localhost:5000/javascript/myWorker.js:14:10
 ```
