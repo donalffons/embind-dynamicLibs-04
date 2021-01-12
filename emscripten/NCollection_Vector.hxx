@@ -9,7 +9,7 @@ class NCollection_Vector
   initMemBlocks_t  myInitBlocks;
 
 public:
-  NCollection_Vector() : myInitBlocks(initMemBlocks) {}
+  NCollection_Vector() : myInitBlocks(NCollection_Vector::initMemBlocks) {}
   void expandV();
   static void initMemBlocks() {}
 };
