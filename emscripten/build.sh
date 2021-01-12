@@ -11,14 +11,15 @@ emcc \
 
 emcc \
   ./NCollection_Vector.cxx \
-  -O3 -fPIC \
+  -fPIC \
   -c -o ./build/NCollection_Vector.o
 
 emcc \
   ./STEPCAFControl_Reader.cxx \
-  -O3 -fPIC \
+  -fPIC \
   -c -o ./build/STEPCAFControl_Reader.o
 
+# HINT: If this is set to O1, the error goes away 
 emcc \
   --bind embind-library.cpp \
   ./build/NCollection_Vector.o \
