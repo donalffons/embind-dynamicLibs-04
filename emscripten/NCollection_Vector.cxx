@@ -2,5 +2,5 @@
 
 void NCollection_Vector::expandV()
 {
-  myInitBlocks();
+  myInitBlocks(); // ERROR: Uncaught (in promise) RuntimeError: function signature mismatch
 }
