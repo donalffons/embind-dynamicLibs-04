@@ -1,4 +1,4 @@
-FROM emscripten/emsdk:2.0.12
+FROM emscripten/emsdk:2.0.13
 
 RUN \
   emsdk update-tags && \
