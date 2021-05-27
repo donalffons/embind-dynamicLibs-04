@@ -1,9 +1,9 @@
-FROM emscripten/emsdk:2.0.13
+FROM emscripten/emsdk:2.0.23
 
-RUN \
-  emsdk update-tags && \
-  emsdk install tot && \
-  emsdk activate tot
+# RUN \
+#   emsdk update-tags && \
+#   emsdk install tot && \
+#   emsdk activate tot
 
 WORKDIR /app/
 

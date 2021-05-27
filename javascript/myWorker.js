@@ -1,7 +1,5 @@
 import main from '/emscripten/build/main.js';
 
-globalThis.setImmediate = () => {}
-
 (async () => {
   const o = await main({
     locateFile: f => "/emscripten/build/main.wasm",
