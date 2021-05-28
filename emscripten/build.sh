@@ -19,7 +19,7 @@ emcc \
   -fPIC \
   -c -o ./build/STEPCAFControl_Reader.o
 
-# HINT: If this is set to O1, the error goes away 
+# HINT: If this is set to O0, the error goes away 
 emcc \
   --bind embind-library.cpp \
   ./build/NCollection_Vector.o \
